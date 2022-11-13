@@ -1,0 +1,295 @@
+/*#main {
+    max-width: 600px;
+    margin: 0 auto;
+}
+*/
+body {
+    background-size: cover;
+    background-color: #E2C2B3;
+    font-family: 微軟正黑體;
+}
+
+/*nav {
+    background-color: #e5cad4;
+    text-align: center;
+    font-family: 微軟正黑體;
+}
+
+nav a {
+    padding: 14px 16px;
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    margin: 10px 17%;
+
+}
+
+nav a:hover {
+    background-color: #cda8b8;
+    color: white;
+}
+<nav>
+        <a href="#skill" style="text-decoration:none;">專業技能</a>
+        <a href="#experience" style="text-decoration:none;">個人經歷</a>
+        <a href="#club" style="text-decoration:none;">社團經驗</a>
+    </nav>
+*/
+
+.aboutme {
+    width: 1000px;
+    height: 320px;
+    background-color: #F7F3F5;
+    border-radius: 10px;
+    margin: 60px 17%;
+    padding: auto;
+}
+
+.name {
+    font-size: 32pt;
+    font-weight: bold;
+    font-family: 微軟正黑體;
+    padding: 0% 30%;
+}
+
+.me {
+    position: absolute;
+    left: 220pt;
+    top: 55pt;
+    border-radius: 10%;
+}
+
+.textme {
+    padding: 0% 31%;
+    font-weight: bold;
+    font-family: 微軟正黑體;
+}
+
+article {
+    color: white;
+}
+
+.skill {
+    width: 1000px;
+    height: 600px;
+    background-color: #a08370;
+    border-radius: 10px;
+    margin: 60px 17%;
+    padding: auto;
+}
+
+.container {
+    width: 95%;
+    margin-top: 10px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 40px;
+
+}
+
+.html-f {
+    width: 80%;
+    background-color: #BAA7A6;
+    font-size: 25px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.percent {
+    color: black;
+    background-color: transparent;
+    position: absolute;
+    top: 2px;
+    right: 55px;
+    width: 5px;
+    font-size: 25px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.CSS-f {
+    width: 80%;
+    background-color: #BAA7A6;
+    font-size: 25px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.Java-f {
+    width: 80%;
+    background-color: #BAA7A6;
+    font-size: 25px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.C-f {
+    width: 70%;
+    background-color: #BAA7A6;
+    font-size: 25px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.skilltitle {
+    font-weight: bold;
+    font-family: 微軟正黑體;
+    padding: 4% 5%;
+    font-size: 25pt;
+}
+
+.experience {
+    width: 1000px;
+    height: 900px;
+    background-color: #687477;
+    border-radius: 10px;
+    margin: 60px 17%;
+    padding: auto;
+}
+
+.extitle {
+    font-weight: bold;
+    font-size: 25pt;
+    font-family: 微軟正黑體;
+    padding: 4% 5%;
+}
+
+.extitle1 {
+    font-weight: bold;
+    font-family: 微軟正黑體;
+    padding: 1% 5%;
+}
+
+.extitle2 {
+    font-weight: bold;
+    font-family: 微軟正黑體;
+    padding: 0% 5%;
+}
+
+.extitle3 {
+    font-weight: bold;
+    font-family: 微軟正黑體;
+    padding: 0% 50% 0% 5%;
+    text-align: auto;
+}
+
+.exph {
+    position: absolute;
+    left: 630pt;
+    top: 920pt;
+    border-radius: 10%;
+}
+
+.expicture {
+    width: 350px;
+    height: 250px;
+    transition: 0.5s;
+}
+
+.expicture:hover {
+    transform: scale(1.1);
+}
+
+.exph1 {
+    position: absolute;
+    left: 630pt;
+    top: 1150pt;
+    border-radius: 10%;
+}
+
+.expicture1 {
+    width: 350px;
+    height: 380px;
+    transition: 0.5s;
+}
+
+.expicture1:hover {
+    transform: scale(1.1);
+}
+
+.club {
+    width: 1000px;
+    height: 900px;
+    background-color: #403234;
+    border-radius: 10px;
+    margin: 60px 17%;
+    padding: auto;
+}
+
+.clubtitle {
+    font-weight: bold;
+    font-size: 25pt;
+    font-family: 微軟正黑體;
+    padding: 4% 5%;
+}
+
+.clubtitle1 {
+    font-weight: bold;
+    font-family: 微軟正黑體;
+    padding: 1% 5%;
+}
+
+.clubtext {
+    font-weight: bold;
+    font-family: 微軟正黑體;
+    padding: 0% 50% 0% 5%;
+    text-align: auto;
+}
+
+.clpicture {
+    width: 350px;
+    height: 250px;
+    transition: 0.5s;
+}
+
+.clpicture:hover {
+    transform: scale(1.1);
+}
+
+.clph {
+    position: absolute;
+    left: 630pt;
+    top: 1680pt;
+    border-radius: 10%;
+}
+
+.clubtitle2 {
+    font-weight: bold;
+    font-family: 微軟正黑體;
+    padding: 5% 8% 2% 5%;
+}
+
+.clubtext1 {
+    font-weight: bold;
+    font-family: 微軟正黑體;
+    padding: 0% 50% 0% 6%;
+    text-align: auto;
+}
+
+.clph1 {
+    position: absolute;
+    left: 630pt;
+    top: 1900pt;
+    border-radius: 10%;
+}
+
+.clpicture1 {
+    width: 350px;
+    height: 370px;
+    transition: 0.5s;
+}
+
+.clpicture1:hover {
+    transform: scale(1.1);
+}
+
+.footer {
+    background-color: #A6A600;
+    text-align: center;
+    font-family: 微軟正黑體;
+    padding: 10px;
+    margin: 0px 0px;
+}
